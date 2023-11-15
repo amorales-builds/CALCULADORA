@@ -1,0 +1,41 @@
+<!--HTML por Amisadai Morales-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1">
+    <!--Title-->
+        <title>CALCULADORA</title>
+    <!--CSS-->
+        <link 
+        rel="stylesheet"
+        href="css/calculadora.css"/> 
+    <!--JS--> 
+        <script src = "js/calculadora.js"></script>
+    </head>
+    <body>
+        <center> <!--para centrar-->
+            <div class = "calculadora">
+                <input type="text" id = "screen">
+                <input type="button" class = "full" value = 'AC' onclick = "Clear()">
+                <input type="button" value = 'DEL' onclick = "Delete()">
+                <input type="button" value = '/' onclick = "Input('/')"> 
+                <input type="button" value = '7' onclick = "Input('7')">
+                <input type="button" value = '8' onclick = "Input('8')">
+                <input type="button" value = '9' onclick = "Input('9')">
+                <input type="button" value = '*' onclick = "Input('*')">
+                <input type="button" value = '4' onclick = "Input('4')">
+                <input type="button" value = '5' onclick = "Input('5')">
+                <input type="button" value = '6' onclick = "Input('6')">
+                <input type="button" value = '+' onclick = "Input('+')">
+                <input type="button" value = '1' onclick = "Input('1')">
+                <input type="button" value = '2' onclick = "Input('2')">
+                <input type="button" value = '3' onclick = "Input('3')">
+                <input type="button" value = '-' onclick = "Input('-')">
+                <input type="button" class = "full" value = '0' onclick = "Input('0')">
+                <input type="button" value = '.' onclick = "Input('.')">
+                <input type="button" value = '=' onclick = "Resultado()">
+            </div>
+        </center>  <!--input type para JS--> <!--value para JS--> <!--onclick para JS-->
+    </body>
+</html>
